@@ -31,8 +31,8 @@ $accela = new Accela([
 ```html
 <head>
   <title data-bind-text="title"></title>
-  
-  <accela-server-component use="json-ld:breadcrumb">
+
+  <accela-server-component use="json-ld:breadcrumb" @permalink="permalink" @title="title">
   {
     "/": "ホーム",
     "/blog/": "ブログ",
