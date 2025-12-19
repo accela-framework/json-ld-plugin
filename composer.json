@@ -1,0 +1,20 @@
+{
+  "name": "accela-framework/json-ld-plugin",
+  "description": "JSON-LD structured data generator for Accela",
+  "keywords": ["Accela", "SPA", "php framework", "JSON-LD", "SEO", "structured data"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/accela-framework/json-ld-plugin",
+  "authors": [
+    {
+      "name": "green spot",
+      "email": "in.green.spot@gmail.com"
+    }
+  ],
+  "require": {
+    "accela-framework/accela": "^0.5"
+  },
+  "autoload": {
+    "files": ["src/load.php"]
+  }
+}
