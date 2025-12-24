@@ -12,7 +12,7 @@
     }
   ],
   "require": {
-    "accela-framework/accela": "^0.5"
+    "accela-framework/accela": ">=0.5"
   },
   "autoload": {
     "files": ["src/load.php"]
